@@ -4,6 +4,9 @@
 	"license": "AGPL-3.0 License",
 	"main": "dist/src/index.js",
 	"types": "dist/src/index.d.ts",
+	"scripts": {
+		"compile": "tsc"
+	},
 	"devDependencies": {
 		"@types/chai": "^4.2.16",
 		"@types/chai-as-promised": "^7.1.4",
